@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Creature Header Files">
+      <UniqueIdentifier>{5533c713-8577-41cf-967b-c9ac1d7cf220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature Source Files">
+      <UniqueIdentifier>{9ff522e9-cfe5-4f2c-8a60-26df74710f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{81994300-1dc9-48e9-8ff9-b7979c2d66ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RPG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericCreature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bandit.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Opponent.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bear.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vampire.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Werewolf.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Banshee.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Witch.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ogre.cpp">
+      <Filter>Creature Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Avril_14th.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Banshee_scream.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Bear_Roar.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Ghost_sound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Goblin_Laugh.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Menu_music.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Ogre_grunt.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Shop.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Sword_Unsheathed.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Vampire_Sound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Witch Laughing.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Wolf_howling.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Zombie_Yell.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="End.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericCreature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RPG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bandit.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opponent.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bear.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vampire.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Werewolf.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Banshee.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Witch.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ogre.h">
+      <Filter>Creature Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Characters.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Opponents.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CharactersRound.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RoundCreaturesList.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Potions.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
